@@ -76,16 +76,16 @@ Figure:Screen shoot of running
 ![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image018.png)
 Figure:Screen shoot of end of runing
 
-![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image023.png)
+![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image022.png)
 Figure:Sample image with bounding boxes
 
-![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image027.png)
+![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image026.png)
 Figure: Sample image with bounding boxes
 
 
 
 4.Propose your own method to further improve the pedestrian detection performance based on the Fast R-CNN framework. (20%) 
-	Answer: The improvement of feature extraction network: using RESNET instead of VGG to extract features.
+Answer: The improvement of feature extraction network: using RESNET instead of VGG to extract features.
  
 References
 	https://blog.csdn.net/ff_xun/article/details/82354999 mAP explain
