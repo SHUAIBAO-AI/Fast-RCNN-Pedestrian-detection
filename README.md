@@ -53,11 +53,11 @@ Calculate the precision and recall:
 
 The figure above is more intuitive. The elements in the circle (true positions + false positions) are the elements we selected, which correspond to the results we take out in the classification task. For example, for the test sample classification on the trained car model, we want to get the top-5 results, that is 
 
-![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image011.png)
+![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image010.png)
 
 In this example, true positions refers to the 4th and 2nd pictures, and false positions refers to the 13th, 19th and 6th pictures. The elements inside the box and outside the circle (false negatives and true negatives) are relative to the elements inside the selection. In this case, it means that the confidence score is listed after top-5.
 
-![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image013.png)
+![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image011.png)
 
 Among them, false negatives refer to the 9th, 16th, 7th and 20th pictures, and true negatives refer to the 1st, 18th, 5th, 15th, 10th, 17th, 12th, 14th and 8113th pictures.
 So, in this example, precision = 2 / 5-40%, which means that for the car category, we have selected 5 samples, of which 2 are correct, i.e. the accuracy is 40%; recall = 2 / 6 = 30%, which means that there are 6 cars in all the test samples, but we just recall 2 of them, so that the recall rate is 30%.
@@ -73,13 +73,13 @@ The final AP performance that I have achieved is 70%.
 
 Figure:Screen shoot of running
 
-![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image017.png)
+![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image018.png)
 Figure:Screen shoot of end of runing
 
-![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image0119.png)
+![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image023.png)
 Figure:Sample image with bounding boxes
 
-![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image021.png)
+![image](https://github.com/STPChenFang/Fast-RCNN-Pedestrian-detection/blob/main/Fast%20RCNN%20IMG/image027.png)
 Figure: Sample image with bounding boxes
 
 
